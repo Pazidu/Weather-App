@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Weather</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+</head>
+<body>
+    <div class="appHeader">
+        <div class="header">Weather Update</div>
+        <span>Enter a location to weather information</span>
+        <form>
+            <input type="text" id="input" class="input" autocomplete="off"/>
+        </form>
+    </div>
+    <div class="appBody" id="appBody">
+        <div class="timeImage">
+            <!-- <img src="https://via.placeholder.com/300x250" alt="day or night image" id="time"> -->
+            <img src="./images/time/day.svg" alt="day or night image" id="time">
+        </div>
+        <div class="weatheIcon" id="weatheIcon">
+            <img src="https://via.placeholder.com/100" alt="weather icon" id="icon">
+        </div>
+        <div class="weatherInfo">
+            <p id="city">COLOMBO</p>
+            <p id="status">cloudy</p>
+            <p id="temp">28.5 &#8451</p>
+        </div>
+
+    </div>
+    <script src='.//script/forecast.js'></script>
+    <script src='.//script/app.js'></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    font-family: 'poppins',sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+}
+.appHeader{
+    margin-top: 50px;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.header{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.appHeader span{
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+}
+
+.input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    outline-style: none;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.appBody{
+    display: none;
+    background-color: rgb(96, 163, 175);
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.timeImage{
+    height: 250px;
+    overflow: hidden;
+}
+#time{
+    height: auto;
+    max-width: 100%;
+}
+.weatheIcon{
+    background-color: #ffffff;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.weatherInfo{
+    margin-top: 60px;
+}
+.weatherInfo p{
+    letter-spacing: 0.1rem;
+}
+.weatherInfo #city{
+    font-weight: 600;
+    font-size: 0.98rem;
+}
+.weatherInfo #status{
+    font-size: 0.9rem;
+    font-weight: 400px;
+}
+.weatherInfo #temp{
+    margin-top: 5px;
+    font-size: 1.5rem;
+    font-weight: 700px;
+}
